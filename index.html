@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Resultate</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+    <link href="fonts/fontawesome/css/all.css" rel="stylesheet">
+</head>
+<body>
+    <section id="cabecalho">
+        <div class="row">
+            <div class="col-12">
+                <img src=topo.png alt="" class="responsive">
+            </div>
+        </div>
+    </section>
+    <section id="menu">
+        <div class="row">
+            <div class="col-12 noppading">
+                <div class="tab">
+                    <button class="tablinks active" onclick="openCar(event,'NovoPolo')">Novo Polo</button>
+                    <button class="tablinks" onclick="openCar(event, 'Up')">Up!</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="principal">
+        <div class="row">
+            <div class="col-12">
+                <div class="row">
+                    <div class="col-6">
+                        <div id="carro">
+                            <!-- TAB - INICIO -->
+                            <div id="NovoPolo" class="row tabcontent active">
+                                <div class="row">
+                                    <div class="col-8 centersinglegrid">
+                                        <div class="row">
+                                            <div class="col-6 informacao">
+                                                <span><strong>NOVO POLO</strong></span>
+                                                <span>1.0 MPI</span>
+                                            </div>
+                                            <div class="col-6 descricao">
+                                                <span>A PARTIR DE <strong>R$49.990,90</strong></span>
+                                                <span>+ TAXA <strong>0%</strong></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <img src="novo_polo.png" class="responsive">
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- TAB - FIM -->
+                            <!-- TAB - INICIO -->
+                            <div id="Up" class="row tabcontent">
+                                <div class="row">
+                                    <div class="col-8 centersinglegrid">
+                                        <div class="row">
+                                            <div class="col-6 informacao">
+                                                <span><strong>UP!</strong></span>
+                                                <span>1.0 MPI</span>
+                                            </div>
+                                            <div class="col-6 descricao">
+                                                <span>A PARTIR DE <strong>R$49.990,90</strong></span>
+                                                <span>+ TAXA <strong>0%</strong></span>
+                                            </div>
+                                       </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <img src="up.png" class="responsive">
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- TAB - FIM -->
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="row">
+                            <div id=titulo class="col-12">
+                                <div class="titulo">
+                                    <h1>SAIA NA FRENTE E GARANTA SEU VOLKSWAGEN.</h1>
+                                    <h2>Escolha o modelo que você deseja e receba ofertas imperdíveis em primeira mão.</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-4" style="padding-right: 0">
+                                <div class="form1 col-12">
+                                    <div>
+                                        <label for="nome"></label>
+                                        <input class="col-12" type="text" name="nome" id="nome" placeholder="nome">
+                                    </div>
+                                    <div>
+                                        <label for="email"></label>
+                                        <input class="col-12" type="email" name="email" id="email" placeholder="e-mail">
+                                    </div>
+                                    <div>
+                                        <label for="telefone"></label>
+                                        <input class="col-12" type="tel" name="telefone" id="telefone" placeholder="telefone">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-8" style="padding-left: 0">
+                                <div class="form2">
+                                    <div id="textarea" class="col-12">
+                                        <label for="mensagem"></label>
+                                        <textarea class="col-6" rows="8" id="mensagem" name="mensagem" placeholder="mensagem"></textarea>
+                                        <div>
+                                            <button class="col-6 btn-formulario">GARANTA AGORA</button>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            <div>
+                       </div>
+                    </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <section id="observacao">
+        <div class="row">
+            <div class="col-6 centersinglegrid">
+                <p>Imagens ilustrativas. Novo Polo MPI - preto - a partir de R$49.990,00 - condições de taxa 0% válida exclusivamente para modelos 1.0MPI e 1.6MSI com entrada de 90% e saldo em 12 meses. Promoção válida até 28/02/2018 ou enquanto durar o estoque.</p>
+            </div>
+        </div>
+    </section>
+    <section id="logo_resultate">
+        <div class="row">
+            <div class="col-12">
+                <img class="responsive logo" src="resultate.png">
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="row">
+            <div class="col-12 noppading">
+                <div class="tab2">
+                    <button type="button" class="tablinks2 active" onclick="openCity(event,'vitoria')">Vitória</button>
+                    <button type="button" class="tablinks2" onclick="openCity(event,'serra')">Serra</button>
+                </div>
+                <div id="cidade">
+                    <div id="vitoria" class="tabcontent2 active">
+                        <span><i class="fas fa-map-marker-alt"></i>Av. Vitória, 1047 - Romão - Vitória - Cep 29041-405</span>
+                        <span><i class="fas fa-envelope-square"></i>E-mail: vitoriawagen@grupolider.com.br</span>
+                        <span><i class="fas fa-phone-square-alt"></i>Tel (27) 3331-8100</span>
+                    </div>
+                    <div id="serra" class="tabcontent2">
+                        <span><i class="fas fa-map-marker-alt"></i> Rod. BR 101 Norte, KM 264,91, 5030, B. Planalto de Carapina - Serra - Cep 29162-703</span>
+                        <span><i class="fas fa-envelope-square"></i>FuE-mail: vitoriawagen@grupolider.com.br</span>
+                        <span><i class="fas fa-phone-square-alt"></i>Tel (27) 3298-3400</span>
+                    </div>
+                    <div id="redes">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="app.js"></script>
+</html>
